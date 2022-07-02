@@ -10,7 +10,7 @@ In order to use the data, just place `alt_df_parties.rds` in the same directory 
 df_parties <- readRDS("alt_df_parties.rds")
 ```
 
-in line 33 of Umit's `02_compile_code.R`. The code should subsequently look like this:
+in line 31 of Umit's `02_compile_code.R`. The code should subsequently look like this:
 
 ```
 [...]
