@@ -31,7 +31,7 @@ Executing `02_compile_code.R` should now compile the constituency level data lik
 
 - For the *Bündnis 90/Grüne – BürgerInnenbewegungen (B90/Gr)* -actually an electoral coalition of *Demokratie Jetzt*, the *East German Greens*, the *Initiative Frieden und Menschenrechte*, the *Vereinigte Linke*,  *Neues Forum* and the *Unabhängiger Frauenverband*- the Wikidata ID for *[Alliance 90](https://de.wikipedia.org/wiki/B%C3%BCndnis_90)* (Q446007) is used, as Wikidata does not have an ID specific to the electoral alliance. PartyFacts does provide an ID specific to this electoral alliance (865).
 - For the West German Greens the Wikidata and PartyFacts ID for just *the Greens* (Wikidata: Q18761823; PartyFacts: 10) is used until the 1990 election. From the 1994 election onward following the merger of *the Greens* and *Alliance 90* the IDs specific to *Alliance 90/The Greens* (Wikidata: Q49766; PartyFacts: 1816) is used.
-- For the various groups running under the "KPD" label over time different:
+- For the various groups running under the "KPD" label over time different IDs are used:
     - The IDs of the original *KPD* (Wikidata: Q153401; PartyFacts: 1135) are used in the 1949 and 1953 elections, before the party was banned in 1956.
     - For 1976 and 1983 respectively the Wikidata IDs (1976: Q1752945. 1983: Q324107) of the party linked in the German Wikipedia entries of the respective election is used. Here, no PartyFacts ID is available.
     - For the 1990, 1994 and 2002 election, again the Wikidata ID (Q324107) of the party linked in the German Wikipedia entries of the elections  is assigned. Again, no PartyFacts ID is available.
