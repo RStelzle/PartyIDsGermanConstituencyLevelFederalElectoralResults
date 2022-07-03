@@ -40,6 +40,8 @@ ger_const_mod %>%
     # Comined partyfacts ID for CDU & CSU.
     partyfacts_id == 1375 ~ 211,
     partyfacts_id == 1731 ~ 211,
+    # Manifesto Project curiously has a combined Manifesto for Greens & Greens/Alliance 90 in 1990
+    partyfacts_id == 10 & election == 1990 ~ 865,
     TRUE ~ partyfacts_id
   )) %>% 
   left_join(
