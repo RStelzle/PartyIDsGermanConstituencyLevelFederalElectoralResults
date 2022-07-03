@@ -27,6 +27,8 @@ Executing `02_compile_code.R` should now compile the constituency level data lik
 
 ## Coding Decisions
 
+- CDU and CSU are assigned different PartyFacts IDs (1375 and 1731) instead of the PartyFacts ID of the combined CDU/CSU (211).
+
 - The PartyFacts ID for "other" parties (1895) is only used for those parties explicitly marked as `"_other"` in Umit's data. For all further parties for which no PartyFacts ID is available `partyfacts_id` is set to missing.
 
 - For the *Bündnis 90/Grüne – BürgerInnenbewegungen (B90/Gr)* -actually an electoral coalition of *Demokratie Jetzt*, the *East German Greens*, the *Initiative Frieden und Menschenrechte*, the *Vereinigte Linke*,  *Neues Forum* and the *Unabhängiger Frauenverband*- the Wikidata ID for *[Alliance 90](https://de.wikipedia.org/wiki/B%C3%BCndnis_90)* (Q446007) is used, as Wikidata does not have an ID specific to the electoral alliance. PartyFacts does provide an ID specific to this electoral alliance (865).
